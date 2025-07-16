@@ -6,11 +6,11 @@
   "service": "app",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   "features": {
-    // "ghcr.io/devcontainers-contrib/features/jshint:2": {},
+    "ghcr.io/devcontainers-extra/features/jshint:2": {},
     "ghcr.io/devcontainers/features/sshd:1": {
       "version": "latest"
     },
-    "ghcr.io/devcontainers-contrib/features/express-generator:2": {},
+    "ghcr.io/devcontainers-extra/features/express-generator:2": {},
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
   "hostRequirements": {
